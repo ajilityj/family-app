@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import logo from '../../assets/logo.svg';
 import './App.css';
+import ConversationsList from '../ConversationsList/ConversationsList';
 
 class App extends Component {
   render() {
@@ -14,6 +15,7 @@ class App extends Component {
           />
           <h1 className="App--header-title">Perhe</h1>
         </header>
+        <ConversationsList />
       </div>
     );
   }

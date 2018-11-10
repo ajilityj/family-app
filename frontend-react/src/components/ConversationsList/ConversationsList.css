@@ -1,0 +1,9 @@
+.conversationsList.ui.grid {
+  margin-top: 0;
+  min-height: calc(100vh - 80px); /* subtract header height */
+  padding: 0 1rem;
+}
+
+.conversationsList .column:first-child {
+  border-right: 1px solid red;
+}
